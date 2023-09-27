@@ -88,20 +88,6 @@ span{
     height:35vw;
     border-radius: 50%;
     margin-left: 3rem;
-    background-color: var(--main-color);
-    box-shadow: 0 0 3rem var(--main-color);
-    animation: floatImage 4s ease-in-out infinite;
-}
-@keyframes floatImage{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-2.4rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
 }
 .home-content p{
     font-size:1.6rem;
