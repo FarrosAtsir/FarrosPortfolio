@@ -40,7 +40,8 @@ ScrollReveal({
 });
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .service-container, .portofolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content h1, .about-img, .footer-text', { origin: 'left' });
+ScrollReveal().reveal('.footer-icon-top', { origin: 'right'});
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'top' });
 
 // typed js
